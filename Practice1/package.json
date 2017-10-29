@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browserify --debug app.js -o bundle.js"
   },
   "author": "ximet <dq.ximet@gmail.com>",
   "license": "ISC",
