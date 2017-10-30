@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sources": [
-    "../../../../../usr/local/lib/node_modules/browserify/node_modules/browser-pack/_prelude.js",
+    "../../../../usr/local/lib/node_modules/browserify/node_modules/browser-pack/_prelude.js",
     "app.js",
     "node_modules/complex.js/complex.js",
     "node_modules/decimal.js/decimal.js",
