@@ -9,3 +9,8 @@
       font-size: 1.5rem;
     }
 }
+
+#expression {
+    display: flex;
+    flex-direction: row;
+}

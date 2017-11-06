@@ -19,9 +19,9 @@ module.exports = function(grunt) {
               map: true,
         
               processors: [
-                require('pixrem')(), // add fallbacks for rem units
-                require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
-                require('cssnano')() // minify the result
+                require('pixrem')(),
+                require('autoprefixer')({browsers: 'last 2 versions'}),
+                require('cssnano')()
               ]
             },
             dist: {
