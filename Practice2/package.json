@@ -19,6 +19,7 @@
     "babelify": "^8.0.0",
     "grunt": "^1.0.1",
     "grunt-contrib-jshint": "^1.1.0",
+    "grunt-jsdoc": "^2.2.0",
     "load-grunt-tasks": "^3.5.2"
   }
 }
