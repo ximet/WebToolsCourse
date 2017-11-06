@@ -14,7 +14,21 @@ module.exports = function(grunt) {
                 }
             }
         },
+        postcss: {
+            options: {
+              map: true,
+        
+              processors: [
+                require('pixrem')(), // add fallbacks for rem units
+                require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
+                require('cssnano')() // minify the result
+              ]
+            },
+            dist: {
+              src: 'src/*.css'
+            }
+          },
     });
     
-    grunt.registerTask('default', ['jshint', 'jsdoc']);
+    grunt.registerTask('default', ['jshint', 'jsdoc', 'postcss']);
 };
