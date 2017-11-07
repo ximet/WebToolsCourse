@@ -1,16 +1,2 @@
-.sky {
-    margin: 2.5rem 2px 3em 100%;
-    color: blue;
-  }
-  
-@media screen and (min-width: 20rem) {
-    .leaf {
-      margin-bottom: 1.333rem;
-      font-size: 1.5rem;
-    }
-}
-
-#expression {
-    display: flex;
-    flex-direction: row;
-}
+.sky{margin:40px 2px 3em 100%;margin:2.5rem 2px 3em 100%;color:blue}@media screen and (min-width:20rem){.leaf{margin-bottom:1.333rem;font-size:1.5rem}}#expression{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxLQUNJLHlCQUE0QixBQUE1QiwyQkFBNEIsVUFDaEIsQ0FDYixvQ0FHQyxNQUNFLHVCQUF3QixnQkFDTixDQUNuQixDQUNKLFlBR0csb0JBQUEsb0JBQUEsYUFBYyw4QkFDZCw2QkFBQSx1QkFBQSxrQkFBb0IsQ0FDdkIiLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnNreSB7XG4gICAgbWFyZ2luOiAyLjVyZW0gMnB4IDNlbSAxMDAlO1xuICAgIGNvbG9yOiBibHVlO1xuICB9XG4gIFxuQG1lZGlhIHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMjByZW0pIHtcbiAgICAubGVhZiB7XG4gICAgICBtYXJnaW4tYm90dG9tOiAxLjMzM3JlbTtcbiAgICAgIGZvbnQtc2l6ZTogMS41cmVtO1xuICAgIH1cbn1cblxuI2V4cHJlc3Npb24ge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IHJvdztcbn0iXX0= */

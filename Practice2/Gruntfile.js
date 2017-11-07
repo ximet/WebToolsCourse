@@ -16,19 +16,21 @@ module.exports = function(grunt) {
         },
         postcss: {
             options: {
-              map: true,
-        
-              processors: [
-                require('pixrem')(),
-                require('autoprefixer')({browsers: 'last 2 versions'}),
-                require('cssnano')()
-              ]
+                map: true,
+            
+                processors: [
+                    require('pixrem')(),
+                    require('autoprefixer')({browsers: 'last 2 versions'}),
+                    require('cssnano')()
+                ]
             },
             dist: {
-              src: 'src/*.css'
+                src: 'src/*.css'
             }
           },
     });
     
     grunt.registerTask('default', ['jshint', 'jsdoc', 'postcss']);
+
+    require('./task/grunt-firstTask.js')(grunt);
 };
