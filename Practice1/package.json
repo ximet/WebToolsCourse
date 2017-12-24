@@ -23,7 +23,7 @@
   "author": "ximet <dq.ximet@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "mathjs": "^3.16.5"
+    "mathjs": "^3.18.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
